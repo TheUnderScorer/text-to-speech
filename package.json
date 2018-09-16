@@ -1,0 +1,30 @@
+{
+  "name": "wpk-core",
+  "version": "1.0.0",
+  "description": "Core WP Kraken plugin",
+  "private": true,
+  "scripts": {
+    "webpack": "npx webpack",
+    "start": "webpack-dev-server"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+git@git-ssh.mpcreation.net:zydek.p/kraken-core.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "homepage": "https://git.mpcreation.net/zydek.p/kraken-core",
+  "devDependencies": {
+    "@babel/core": "^7.0.0-beta.51",
+    "@babel/preset-env": "^7.0.0-beta.51",
+    "babel-loader": "^8.0.0-beta.4",
+    "css-loader": "^1.0.0",
+    "node-sass": "^4.9.2",
+    "sass-loader": "^7.0.3",
+    "style-loader": "^0.21.0",
+    "webpack": "^4.16.1",
+    "webpack-cli": "^3.0.8",
+    "webpack-dev-server": "^3.1.8"
+  }
+}
